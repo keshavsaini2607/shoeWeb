@@ -1,0 +1,14 @@
+.blogpost {
+    padding: 10px 30px 0 1px  ;
+}
+
+.blogpost h2 {
+    font-size: 18px;
+}
+
+.blogpost p {
+    font-size: 14px;
+}
+.blogpost strong {
+    font-size: 12px;
+}

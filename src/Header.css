@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+  }
+  
+  .logo img{
+    width: 50%;
+  }
+
+  .header__option {
+    display: flex;
+    list-style: none;
+  }
+  
+  .header__option li {
+    margin: 4vw;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .links {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .links:hover {
+    color: aqua;
+  }

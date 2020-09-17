@@ -1,24 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import Header from './Header';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+    
+      <Header />
+
+      <div className="shoe">
+      <h1>The Grail Report</h1>
+      <div className="collection">
+        <span id="span1">sneakers</span>
+        <span id="span2">. streetwear .</span>
+        <span id="span3">culture</span>
+      </div>
+
+      </div>
+      <br/>
+      <ExpandMoreIcon  className="down__arrow" fontSize="large" />
+    
     </div>
   );
 }

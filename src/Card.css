@@ -1,0 +1,15 @@
+.card img {
+    width: 90%;
+}
+
+.lastseen span {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#time {
+    color: orangered;
+}
+#views{
+    color: grey;
+}
